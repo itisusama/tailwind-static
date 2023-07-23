@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind 2</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container max-w-full bg-[url('images\image1.jpg')]">
+    <nav class="text-white py-4 px-5 flex justify-between">
+        <div class="text-3xl">Creative <br> <span class="text-yellow-500">Dreams</span></div>
+
+        <ul class="text-2xl flex items-center gap-4">
+            <li>Home</li>
+            <li>Services <span class="text-yellow-500 text-[20px]">▼</span></li>
+            <li>Blog</li>
+            <li>About</li>
+            <li>FAQ</li>
+            <li class="bg-yellow-500 p-4 rounded-full">🔍</li>
+        </ul>
+    </nav>
+    <!-- Hero -->
+    <div class="px-8 py-14 flex justify-between text-white">
+        <div>
+            <h1 class="text-5xl font-extrabold"><span class="text-yellow-500">
+                Subscribe Now</span><br>
+                to Our Newsletter
+            </h1>
+
+            <p class="text-[10px] w-3/5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sapiente id quidem laboriosam iste rerum explicabo illum quaerat doloremque, veritatis esse dolorem suscipit, ducimus ut sequi quos, cupiditate dicta facilis.</p>
+
+            <div class="pt-5">
+                <form class="text-black">
+                    <input class="w-2/5 p-2 rounded-full" type="text" placeholder="Name"> <br><br>
+                    <input class="w-2/5 p-2 rounded-full" type="email" placeholder="Email"> <br><br>
+                    <button type="button" class="bg-yellow-500 text-white font-semibold py-2 px-8 rounded-full"> Send </button>
+                </form>
+            </div>
+        </div>
+        <div id="blob" class="w-96 h-96 bg-slate-500"></div>
+    </div>
+    <!-- Hero -->
+  </div>
+</div>
+</body>
+</html>
